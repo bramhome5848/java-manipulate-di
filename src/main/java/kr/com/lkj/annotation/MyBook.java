@@ -1,4 +1,4 @@
-package kr.com.lkj;
+package kr.com.lkj.annotation;
 
 public class MyBook extends Book implements MyInterface {
 }

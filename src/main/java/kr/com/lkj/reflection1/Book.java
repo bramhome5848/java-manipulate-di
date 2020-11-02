@@ -1,4 +1,4 @@
-package kr.com.lkj;
+package kr.com.lkj.reflection1;
 
 public class Book {
 

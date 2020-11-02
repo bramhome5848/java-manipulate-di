@@ -1,6 +1,5 @@
-package kr.com.lkj;
+package kr.com.lkj.reflection1;
 
-import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.Arrays;
 
@@ -28,7 +27,7 @@ public class App
         Book book = new Book();
         Class<? extends Book> bClass2 = book.getClass();    //만든 class instance 접근
 
-        Class<?> bClass3 = Class.forName("kr.com.lkj.Book");// 문자열을 통한 class instance 접근
+        Class<?> bClass3 = Class.forName("kr.com.lkj.reflection1.Book");// 문자열을 통한 class instance 접근
     }
 
     /**
